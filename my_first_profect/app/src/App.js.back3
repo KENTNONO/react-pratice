@@ -1,0 +1,13 @@
+import React, { Component } from 'react'
+import Square from './BordGame'
+
+class App extends Component {
+  render() {
+    return (
+      // <ShoppingList name="測試React!" />
+      <Square name="react!" />
+    );
+  }
+}
+
+export default App
