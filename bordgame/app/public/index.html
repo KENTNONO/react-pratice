@@ -63,7 +63,7 @@
         return function error() {
           errors.textContent += Array.prototype.slice.call(arguments).join(' ') + '\n';
           errors.style.display = '';
-          old.apply(this, arguments);
+          // old.apply(this, arguments);
         }
       })(console.error);
     </script>
